@@ -1,0 +1,60 @@
+body{
+
+    /* background-color: black;
+     */
+     background-color: #2c3333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.text, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.emails, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.submit {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color:#cccccc;
+ 
+  }
+  
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2;
+     */
+     background-color: #000000;
+    padding: 20px;
+    width: 400px;
+    padding: 50px;
+    margin-left: 540px;
+    margin-top: 110px;
+  }

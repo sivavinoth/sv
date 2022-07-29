@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+
+/*  */
+/* image tag */
+.imgs {
+    display: inline-block;
+    position: relative;
+    background: url(Myproject.png);
+    opacity: 1.5;
+    width: 400px;
+    border-radius: 30px;
+    margin-right: 40px;
+    height: 400px;
+
+}
+
+/* top */
+section {
+    /* background-color:#E7FBBE; */
+    background-color: #2C3333;
+    /* background-color: #ECB365; */
+    /* padding: 40px; */
+    min-height: 40vh;
+    block-size: 500px;
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner .contentBx,
+.sidebar {
+    position: absolute;
+    width: 500px;
+    border-radius: 30px;
+    margin-right: 30px;
+    width: calc(100% - 100px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner .contentBx h4 {
+    font-size: 1.5em;
+    /* color: #333; */
+    color: #FFFDF9;
+
+    font-weight: 300;
+}
+
+.banner .contentBx h4 span {
+    color: #00bcd4;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+.banner .contentBx h2 {
+    font-size: 3em;
+    /* color: #333; */
+    color: #FFFDF9;
+    line-height: 0.3em;
+}
+
+/* paragraph */
+p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 300px;
+}
+
+.space h2 {
+
+    line-height: 50px;
+}
+
+/* middle
+ */
+
+.middle {
+    background-color: white;
+    min-height: 50vh;
+    width: calc(100% - 100px);
+    height: 100%;
+    width: fit-content;
+    block-size: 500px;
+
+}
+
+/* h2 middle */
+.center {
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    left: 270px;
+    font-size: 30px;
+
+}
+
+/* para tag in middle section*/
+
+.details {
+
+    /* color: #656270;
+     */
+    color: #748DA6;
+    font-size: 1.1em;
+    line-height: 1.7;
+    padding: 100px;
+
+
+}
+
+.imge {
+
+    position: absolute;
+    top:710px;
+    border-radius: 100%;
+    width: 200px;
+    right: 430px;
+
+    
+
+
+}
+
+/* skills */
+
+.centr {
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    right: 100px;
+    font-size: 30px;
+    color: white;
+  
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h5{
+    color: white;
+    padding-left: 60px;
+}
+
+h3{
+    /* color:red; */
+    padding-left: 30px;
+    color: #FCF8E8;
+}
+
+
+
+
+
+.end.endpart {
+
+    max-height: 10px;
+} 
+
+footer {
+
+    height: 50px;
+    background-color:#FFFDF9;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+
+}
