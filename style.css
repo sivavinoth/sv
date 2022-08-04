@@ -168,14 +168,17 @@ h3{
 
     max-height: 10px;
 } 
-
-footer {
-
-    height: 50px;
-    background-color:#FFFDF9;
-    width: 70px;
-    padding: 10px;
-    text-align: center;
-    display: block;
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+footer:nth-child(1){
+    font-weight: bold;
+    font-size: 32px;
+}
+footer a{
+    color:#202020;
+    font-size: 22px;
 }
