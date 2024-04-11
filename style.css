@@ -125,7 +125,8 @@ p {
 
 .imge {
 
-    position: absolute;
+    position: relative;
+    float: left;
     top:710px;
     border-radius: 100%;
     width: 200px;
@@ -181,4 +182,38 @@ footer:nth-child(1){
 footer a{
     color:#202020;
     font-size: 22px;
+    
+}
+.container-1{
+ display: flex-2;
+ flex-wrap: wrap;
+
+ .contentBx{
+    justify-content:flex-start;
+ }
+.space{
+    justify-content: center;
+    order: 1;
+}
+
+}
+
+ 
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+   align-content: center;
+    max-width: fit-content;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding:20px;
+    justify-content: space-between;
+
 }
